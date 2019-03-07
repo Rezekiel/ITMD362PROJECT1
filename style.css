@@ -1,0 +1,278 @@
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ===== LAYOUT STYLES ====== */
+
+h1 a { 
+    color: silver; 
+    font: bold 11px Calibri, Optima, Arial, sans-serif; 
+    letter-spacing: 0.20em; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+}
+
+/* heading and paragraph css */
+/* (36 / 16 = 2.25) */
+/* (2.25 * 22px = 49.5) */
+
+h1 {
+    font-size: 2.25em; /* 49.5px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h2 {
+    font-size: 1.618em; /* 35.596px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h3 {
+    font-size: 1.391em; /* 30.593px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h4 {
+    font-size: 1em; /* 22px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+
+    font-style: normal; 
+    font-weight: normal;
+}    
+
+p {
+    font-size: 1em; /* 22px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+    font-style: normal; 
+    font-weight: normal;
+}
+
+ol {
+    background-color: silver;
+    margin-top: 0.591em;
+    padding: 0.809em; /* 26px / ~ 120% */ 
+    border-radius: 0.236em;
+}
+
+input {
+    resize: vertical;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* email css */
+
+#input-email {
+    width: 100%;
+    /* padding-top: 0.809em;  don't need because of label padding */
+    padding-bottom: 0.809em;
+    resize: vertical;
+}
+
+label[for=email] {
+    padding-top: 0.809em;
+    padding-bottom: 0.809em;
+}
+
+#email {
+    width: 100%;
+    border-radius: 0.236em;
+    border-style: hidden;
+    padding-top: 0.809em;
+    padding-bottom: 0.809em;
+
+}
+
+/* age verification css */
+
+#input-age-verification {
+    padding-top: 0.809em;
+    padding-bottom: 0.809em;
+    width: 100%;
+}
+
+label[for=age-verification] {
+    width: 100%;
+    display: inline;
+    padding: 0;
+}
+
+#age-verification {
+    width: auto;
+    display: inline;
+    padding: 0;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.0em;
+    margin-right: 0.6em;
+    width: 1.364em;
+    height: 1.664em;
+}
+
+/* submit css */
+
+#input-submit {
+    width: 100%;
+    padding-top: 0.809em;
+    padding-bottom: 0.809em;
+}
+
+#submit {
+    width: 100%;
+    padding-top: 0.809em;
+    padding-bottom: 0.809em;
+    border-radius: 0.236em;
+    border-style: hidden;
+    background-color: darkgray;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* ===== MODULAR STYLES ===== */
+/* === media queiries === */
+/* 400px Break Point 1: Extra Small Devices, Phones */
+@media screen and (max-width: 354px) { 
+
+    h1 {
+        font-size: 1.618em; /* 35.596px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+        font-style: normal; 
+        font-weight: normal;
+    } 
+
+    h2 {
+        font-size: 1.391em; /* 30.593px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+
+        font-style: normal; 
+        font-weight: normal;
+    } 
+
+    h3 {
+        font-size: 1em; /* 22px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+
+        font-style: normal; 
+        font-weight: normal;
+    }    
+
+    h4 {
+        font-size: 1em; /* 22px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+        font-style: normal; 
+        font-weight: normal;
+    }
+
+    p, label, input {
+        font-size: 0.618em; /* 13px @ 22 */
+        line-height: 1.618em; /* 22px / ~ 1.618% */ /* ( 22px / 22px = 1em ) */
+        font-style: normal; 
+        font-weight: normal;
+    }
+
+    #age-verification {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.0em;
+        margin-right: 0.6em;
+        width: 2.007em;
+        height: 2.007em;
+    }
+
+}
+/* 658px Break Point 2: Small Devices, Tablets, PCs */
+@media screen and (min-width: 658px) {
+
+    /* email css */
+
+    #input-email {
+        width: 100%;
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        display: block;
+    }
+
+    label[for=email] {
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        width: 19%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #email {
+        width: 80%;
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        display: inline-block;
+
+    }
+
+    /* age verification css */
+
+    #input-age-verification {
+        width: 80%;
+        float: right;
+        display: block;
+        overflow: hidden; /* keeps it in box */
+        text-align: left;
+    }
+
+    label[for=age-verification] {
+        display: inline-block;
+        text-align: left;
+        width: 86%
+
+    }
+
+    #age-verification {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.0em;
+        margin-right: 0.6em;
+        width: 1.364em;
+        height: 1.664em;
+    }
+
+    /* submit css */
+
+    #input-submit {
+        width: 100%;
+        display: block;
+        overflow:hidden; /* keeps it in box */
+    }
+
+}
+
+/* 992px Break Point 3: Desktop Computers, Large screens */
+@media screen and (min-width: 996px) {
+
+    main {
+        width: 960px;
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+
+
+/* ===== STATE STYLES ======= */
