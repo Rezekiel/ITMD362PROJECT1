@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Exo', sans-serif;
@@ -14,6 +13,7 @@ h1 a {
     letter-spacing: 0.20em; 
     text-transform: uppercase; 
     text-decoration: none; 
+
 }
 
 /* heading and paragraph css */
@@ -26,6 +26,7 @@ h1 {
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
     font-style: normal; 
     font-weight: normal;
+	text-align: center;
 } 
 
 h2 {
@@ -33,12 +34,12 @@ h2 {
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
     font-style: normal; 
     font-weight: normal;
+	text-align: center;
 } 
 
 h3 {
     font-size: 1.391em; /* 30.593px @ 22 */
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-
     font-style: normal; 
     font-weight: normal;
 } 
@@ -46,7 +47,6 @@ h3 {
 h4 {
     font-size: 1em; /* 22px @ 22 */
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-
     font-style: normal; 
     font-weight: normal;
 }    
@@ -56,6 +56,7 @@ p {
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
     font-style: normal; 
     font-weight: normal;
+	text-align: center;
 }
 
 ol {
@@ -138,10 +139,6 @@ label[for=age-verification] {
     border-style: hidden;
     background-color: darkgray;
     color: black;
-}
-
-h1 {
-    text-align: center;
 }
 
 
