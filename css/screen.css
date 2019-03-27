@@ -36,20 +36,7 @@ h2 {
     font-weight: normal;
 	text-align: center;
 } 
-
-h3 {
-    font-size: 1.391em; /* 30.593px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-    font-style: normal; 
-    font-weight: normal;
-} 
-
-h4 {
-    font-size: 1em; /* 22px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-    font-style: normal; 
-    font-weight: normal;
-}    
+    
 
 p {
     font-size: 1em; /* 22px @ 22 */
@@ -162,20 +149,6 @@ label[for=age-verification] {
         font-weight: normal;
     } 
 
-    h3 {
-        font-size: 1em; /* 22px @ 22 */
-        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-
-        font-style: normal; 
-        font-weight: normal;
-    }    
-
-    h4 {
-        font-size: 1em; /* 22px @ 22 */
-        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-        font-style: normal; 
-        font-weight: normal;
-    }
 
     p, label, input {
         font-size: 0.618em; /* 13px @ 22 */
