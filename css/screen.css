@@ -6,126 +6,114 @@ html{
 }
 
 body{
-  font-family: 'Lato', sans-serif;
   font-family: 'Exo', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
 /* ===== LAYOUT STYLES ====== */
 
-
-
-/* heading and paragraph css */
-/* (36 / 16 = 2.25) */
-/* (2.25 * 22px = 49.5) */
-
 h1 {
-	font-family:'Lato', sans-serif;
-    font-size: 2.25em; /* 49.5px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-    font-style: normal; 
-    font-weight: normal;
+  font-size: 2.25em; 
+  line-height: 1.618em; 
+  font-style: normal; 
+  font-weight: normal;
 	text-align: center;
 } 
 
 h2 {
-    font-size: 1.618em; /* 35.596px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-    font-style: normal; 
-    font-weight: normal;
+  font-size: 1.618em; 
+  line-height: 1.618em; 
+  font-style: normal;
+  font-weight: normal;
 	text-align: center;
 } 
-    
 
 p {
-    font-size: 1em; /* 22px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-    font-style: normal; 
-    font-weight: normal;
+  font-size: 1em; 
+  line-height: 1.618em;
+  font-style: normal;
+  font-weight: normal;
 	text-align: center;
 }
 
 ol {
-    background-color: silver;
-    margin-top: 0.591em;
-    padding: 0.809em; /* 26px / ~ 120% */ 
-    border-radius: 0.236em;
+  background-color: silver;
+  margin-top: 0.591em;
+  padding: 0.809em; 
+  border-radius: 0.236em;
 }
 
-input {
-    resize: vertical;
-    display: inline-block;
-    padding-left: 0;
-    padding-right: 0;
+input{
+  resize: vertical;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* email css */
 
 #input-email {
-    width: 100%;
-    /* padding-top: 0.809em;  don't need because of label padding */
-    padding-bottom: 0.809em;
-    resize: vertical;
+  width: 100%;  
+  padding-bottom: 0.809em;
+  resize: vertical;
 }
 
 label[for=email] {
-    padding-top: 0.809em;
-    padding-bottom: 0.809em;
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
 }
 
 #email {
-    width: 100%;
-    border-radius: 0.236em;
-    border-style: hidden;
-    padding-top: 0.809em;
-    padding-bottom: 0.809em;
-
+  width: 100%;
+  border-radius: 0.236em;
+  border-style: hidden;
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
 }
 
 /* age verification css */
 
 #input-age-verification {
-    padding-top: 0.809em;
-    padding-bottom: 0.809em;
-    width: 100%;
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
+  width: 100%;
 }
 
 label[for=age-verification] {
-    width: 100%;
-    display: inline;
-    padding: 0;
+  width: 100%;
+  display: inline;
+  padding: 0;
 }
 
 #age-verification {
-    width: auto;
-    display: inline;
-    padding: 0;
-    vertical-align: top;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0.0em;
-    margin-right: 0.6em;
-    width: 1.364em;
-    height: 1.664em;
+  width: auto;
+  display: inline;
+  padding: 0;
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.0em;
+  margin-right: 0.6em;
+  width: 1.364em;
+  height: 1.664em;
 }
 
 /* submit css */
 
 #input-submit {
-    width: 100%;
-    padding-top: 0.809em;
-    padding-bottom: 0.809em;
+  width: 100%;
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
 }
 
 #submit {
-    width: 100%;
-    padding-top: 0.809em;
-    padding-bottom: 0.809em;
-    border-radius: 0.236em;
-    border-style: hidden;
-    background-color: darkgray;
-    color: black;
+  width: 100%;   
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
+  border-radius: 0.236em;
+  border-style: hidden;
+  background-color: darkgray;
+  color: black;
 }
 
 
