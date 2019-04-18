@@ -77,7 +77,7 @@ label[for=email] {
   padding-bottom: 0.809em;
 }
 
-/* age verification css */
+/*subscribe button css */
 
 #notify {
   padding-top: 0.809em;
@@ -110,7 +110,7 @@ input[type="checkbox"] {
 /* submit css */
 
 #input-submit {
-  width: 100%;
+  width: 50%;
   padding-top: 0.809em;
   padding-bottom: 0.809em;
 }
