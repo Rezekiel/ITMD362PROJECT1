@@ -181,7 +181,7 @@ input[type="checkbox"] {
   input[type="email"] {
     width: 60%;
     border-radius: 5px;
-    margin: .3em 10em;
+    margin:.3em 7em .3em;
     padding: 6px;
     text-align:center;
   }
@@ -221,7 +221,7 @@ input[type="checkbox"] {
   input[type="email"] {
     width: 60%;
     border-radius: 5px;
-    margin: .3em 10em;
+    margin: .3em 11em;
     padding: 6px;
     text-align:center;
   }
