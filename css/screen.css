@@ -116,7 +116,7 @@ input[type="checkbox"] {
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
-@media screen and (min-width: 300) { 
+@media screen and (min-width: 300px) { 
 
   main {
     width: 80%;
@@ -131,10 +131,10 @@ input[type="checkbox"] {
 
   input[type="text"],
   input[type="email"] {
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
-    margin: .3em 10em;
-    padding: 6px;
+    margin:.2em 3em.2em 3em;
+    padding: 4px;
     text-align:center;
   }
   
