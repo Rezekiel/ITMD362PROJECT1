@@ -2,12 +2,13 @@ html{
   font-size: 1.0em; /* 16px */
   line-height: 1.25em; /* 20px*/
   text-rendering: optimizeLegibility;
-  background-color:#F0F0F0;
 }
 
 body{
   font-family: 'Exo', sans-serif;
   color: black;
+  background-color:#F0F0F0;
+
 }
 
 label{
@@ -130,6 +131,8 @@ input[type="checkbox"] {
   background-color: #DCDCDC	;
   color: black;
   cursor: pointer;
+  font-family: 'Exo', sans-serif;
+
 }
 
 
