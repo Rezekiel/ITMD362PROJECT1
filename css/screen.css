@@ -16,7 +16,7 @@ form{
 }
 label{
   display:block;
-  text-align:center;
+  text-align:left;
 }
 
 h1 {
@@ -46,12 +46,6 @@ p {
   background-color:#A9A9A9	;
 }
 
-ol {
-  background-color: silver;
-  margin-top: 0.591em;
-  padding: 0.809em; 
-  border-radius: 0.236em;
-}
 
 input{
   resize: vertical;
@@ -166,7 +160,13 @@ input[type="checkbox"] {
         font-style: normal; 
         font-weight: normal;
     }
-
+    
+    input[type="text"],
+    input[type="email"] {
+    width: 100%;
+    margin: .2em auto .8em auto;
+    padding: 0.1875em;
+  }
     #notification {
         display: inline-block;
         vertical-align: middle;
@@ -234,12 +234,12 @@ input[type="checkbox"] {
     text-align:left;
   }
 
-    main {
-        width: 80%;
-        display: block;
-        margin:auto;
-        text-align: center;
-        padding: 10px 10px;
+  main {
+    width: 80%;
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding: 10px 10px;
     }
 
 
