@@ -2,7 +2,7 @@ html{
   font-size: 1.0em; /* 16px */
   line-height: 1.25em; /* 20px*/
   text-rendering: optimizeLegibility;
-  background-color:#f4f5f7
+  background-color:#A9A9A9;
 }
 
 body{
@@ -39,7 +39,7 @@ p {
 	text-align: center;
 }
 #join{
-  background-color:pink;
+  background-color:#778899		;
 }
 
 ol {
@@ -127,8 +127,8 @@ input[type="checkbox"] {
   color: black;
 }
 #submit:hover{
-  background-color: #yello;
-  color: #red;
+  background-color: #DCDCDC	;
+  color: black;
   cursor: pointer;
 }
 
