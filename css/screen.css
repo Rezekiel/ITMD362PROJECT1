@@ -2,7 +2,7 @@ html{
   font-size: 1.0em; /* 16px */
   line-height: 1.25em; /* 20px*/
   text-rendering: optimizeLegibility;
-  background-color:#A9A9A9;
+  background-color:#F0F0F0;
 }
 
 body{
@@ -39,7 +39,7 @@ p {
 	text-align: center;
 }
 #join{
-  background-color:#778899		;
+  background-color:#A9A9A9	;
 }
 
 ol {
@@ -123,7 +123,7 @@ input[type="checkbox"] {
   padding-bottom: 0.809em;
   border-radius: 0.236em;
   border-style: hidden;
-  background-color: darkgray;
+  background-color: ;
   color: black;
 }
 #submit:hover{
@@ -175,6 +175,10 @@ input[type="checkbox"] {
 }
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 658px) {
+  
+  body{
+    background-color: white;
+  }
 
     /* email css */
 
