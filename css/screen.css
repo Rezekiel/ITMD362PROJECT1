@@ -126,6 +126,11 @@ input[type="checkbox"] {
   background-color: darkgray;
   color: black;
 }
+#submit:hover{
+  background-color: #yello;
+  color: #red;
+  cursor: pointer;
+}
 
 
 /* ===== MODULAR STYLES ===== */
@@ -196,23 +201,6 @@ input[type="checkbox"] {
 
     }
 
-    /* age verification css */
-
-    #input-notification {
-        width: 80%;
-        float: right;
-        display: block;
-        overflow: hidden; /* keeps it in box */
-        text-align: left;
-    }
-
-    label[for=age-verification] {
-        display: inline-block;
-        text-align: left;
-        width: 86%
-
-    }
-
     #notification {
         display: inline-block;
         vertical-align: top;
@@ -223,15 +211,6 @@ input[type="checkbox"] {
         width: 1.364em;
         height: 1.664em;
     }
-
-    /* submit css */
-
-    #input-submit {
-        width: 100%;
-        display: block;
-        overflow:hidden; /* keeps it in box */
-    }
-
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
