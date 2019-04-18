@@ -46,7 +46,6 @@ p {
   background-color:#A9A9A9	;
 }
 
-
 input{
   resize: vertical;
   display: inline-block;
@@ -117,46 +116,47 @@ input[type="checkbox"] {
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (max-width: 354px) { 
-    
-    
-    h1 {
-        font-size: 1.618em; /* 35.596px @ 22 */
-        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-        font-style: normal; 
-        font-weight: normal;
+  h1 {
+    font-size: 1.618em; /* 35.596px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal; 
+    font-weight: normal;
+  } 
+  h2 {
+    font-size: 1.391em; /* 30.593px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal;
+    font-weight: normal;
     } 
-
-    h2 {
-        font-size: 1.391em; /* 30.593px @ 22 */
-        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-
-        font-style: normal; 
-        font-weight: normal;
-    } 
-
-    p, label, input {
-        font-size: 0.618em; /* 13px @ 22 */
-        line-height: 1.618em; /* 22px / ~ 1.618% */ /* ( 22px / 22px = 1em ) */
-        font-style: normal; 
-        font-weight: normal;
+  p, label {
+    font-size: 0.618em; /* 13px @ 22 */
+    line-height: 1.618em; /* 22px / ~ 1.618% */ /* ( 22px / 22px = 1em ) */
+    font-style: normal;
+    font-weight: normal;
     }
-    
-    input[type="text"],
-    input[type="email"] {
+  input[type="text"],
+  input[type="email"] {
     width: 100%;
+    border: 1px solid orange;
     margin: .2em auto .8em auto;
-    padding: 0.1875em;
+    padding: 3px;
   }
-    #notification {
-        display: inline-block;
-        vertical-align: middle;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0.0em;
-        margin-right: 0.6em;
-        width: 2.007em;
-        height: 2.007em;
-    }
+  input[type="text"],
+  input[type="email"],
+  placeholder {
+    font-size: .75em;
+  }
+  
+  #notification {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.0em;
+    margin-right: 0.6em;
+    width: 2.007em;
+    height: 2.007em;
+  }
 
 }
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
@@ -165,19 +165,22 @@ input[type="checkbox"] {
   body{
     background-color: white;
   }
-
-    /* email css */
-
-
-    #notification {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0.0em;
-        margin-right: 0.6em;
-        width: 1.364em;
-        height: 1.664em;
+  
+  form{
+    width:80%;
+    margin:auto;
+    text-align:left;
+  }
+  
+  #notification {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.0em;
+    margin-right: 0.6em;
+    width: 1.364em;
+    height: 1.664em;
     }
 }
 
@@ -199,6 +202,4 @@ input[type="checkbox"] {
     text-align: center;
     padding: 10px 10px;
     }
-
-
-/* ===== STATE STYLES ======= */
+}
