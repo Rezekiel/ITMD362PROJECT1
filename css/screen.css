@@ -54,26 +54,6 @@ input{
   padding-right: 0;
 }
 
-/* email css */
-
-#email {
-  width: 100%;  
-  padding-bottom: 0.809em;
-  resize: vertical;
-}
-
-label[for=email] {
-  padding-top: 0.809em;
-  padding-bottom: 0.809em;
-}
-
-#email {
-  width: 100%;
-  border-radius: 0.236em;
-  border-style: hidden;
-  padding-top: 0.809em;
-  padding-bottom: 0.809em;
-}
 
 /*subscribe button css */
 
@@ -188,28 +168,6 @@ input[type="checkbox"] {
 
     /* email css */
 
-    #input-email {
-        width: 100%;
-        padding-top: 0.809em;
-        padding-bottom: 0.809em;
-        display: block;
-    }
-
-    label[for=email] {
-        padding-top: 0.809em;
-        padding-bottom: 0.809em;
-        width: 19%;
-        display: inline-block;
-        text-align: center;
-    }
-
-    #email {
-        width: 80%;
-        padding-top: 0.809em;
-        padding-bottom: 0.809em;
-        display: inline-block;
-
-    }
 
     #notification {
         display: inline-block;
