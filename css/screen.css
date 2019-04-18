@@ -109,10 +109,12 @@ input[type="checkbox"] {
 }
 /* submit css */
 
-#input-submit {
-  width: 50%;
+#button {
+  text-align:center;
+  width: 30%;
   padding-top: 0.809em;
   padding-bottom: 0.809em;
+  margin:auto;
 }
 
 #submit {
