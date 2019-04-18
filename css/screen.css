@@ -16,7 +16,8 @@ form{
 }
 label{
   display:block;
-  text-align:left;
+  padding: 5px;
+  
 }
 
 h1 {
@@ -52,7 +53,6 @@ input{
   padding-left: 0;
   padding-right: 0;
 }
-
 
 /*subscribe button css */
 
@@ -116,6 +116,31 @@ input[type="checkbox"] {
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (max-width: 354px) { 
+
+  main {
+    width: 80%;
+    margin: auto;
+    padding: 5px 0px;
+}
+
+  form {
+    width: 90%;
+    margin: auto;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    border: 2px solid black;
+    margin: .2em auto .8em auto;
+    padding: 3px;
+  }
+  input[type="text"],
+  input[type="email"],
+  placeholder {
+    font-size: .100em;
+  }
+  
   h1 {
     font-size: 1.618em; /* 35.596px @ 22 */
     line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
@@ -128,25 +153,8 @@ input[type="checkbox"] {
     font-style: normal;
     font-weight: normal;
     } 
-  p, label {
-    font-size: 0.618em; /* 13px @ 22 */
-    line-height: 1.618em; /* 22px / ~ 1.618% */ /* ( 22px / 22px = 1em ) */
-    font-style: normal;
-    font-weight: normal;
-    }
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-    border: 1px solid orange;
-    margin: .2em auto .8em auto;
-    padding: 3px;
-  }
-  input[type="text"],
-  input[type="email"],
-  placeholder {
-    font-size: .75em;
-  }
-  
+ 
+ 
   #notification {
     display: inline-block;
     vertical-align: middle;
@@ -159,6 +167,7 @@ input[type="checkbox"] {
   }
 
 }
+
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 658px) {
   
@@ -202,4 +211,12 @@ input[type="checkbox"] {
     text-align: center;
     padding: 10px 10px;
     }
+    
+    input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    margin: .2em auto .8em auto;
+    padding: 0px;
+  }
+
 }
